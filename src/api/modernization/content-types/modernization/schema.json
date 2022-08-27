@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "modernizations",
+  "info": {
+    "singularName": "modernization",
+    "pluralName": "modernizations",
+    "displayName": "modernization"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Active": {
+      "type": "boolean"
+    },
+    "dealers": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::dealer.dealer",
+      "inversedBy": "modernizations"
+    }
+  }
+}

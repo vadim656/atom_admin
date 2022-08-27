@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "farms",
+  "info": {
+    "singularName": "farm",
+    "pluralName": "farms",
+    "displayName": "Farm"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Active": {
+      "type": "boolean"
+    },
+    "dealers": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::dealer.dealer",
+      "inversedBy": "farms"
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dealers",
+  "info": {
+    "singularName": "dealer",
+    "pluralName": "dealers",
+    "displayName": "Dealer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "CompanyName": {
+      "type": "text"
+    },
+    "Adress": {
+      "type": "string"
+    },
+    "Phone": {
+      "type": "integer"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "UID": {
+      "type": "uid",
+      "targetField": "CompanyName",
+      "required": true
+    },
+    "StartTimeWork": {
+      "type": "string"
+    },
+    "EndTimeWork": {
+      "type": "string"
+    },
+    "VIP": {
+      "type": "boolean"
+    },
+    "Coordinates": {
+      "type": "string"
+    },
+    "CompanyDesc": {
+      "type": "text"
+    },
+    "asics": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::asic.asic",
+      "mappedBy": "dealers"
+    },
+    "farms": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::farm.farm",
+      "mappedBy": "dealers"
+    },
+    "repairs": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::repair.repair",
+      "mappedBy": "dealers"
+    },
+    "accessories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::accessorie.accessorie",
+      "inversedBy": "dealers"
+    },
+    "modernizations": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::modernization.modernization",
+      "inversedBy": "dealers"
+    },
+    "services": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::service.service",
+      "inversedBy": "dealers"
+    }
+  }
+}

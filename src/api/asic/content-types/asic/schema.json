@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "asics",
+  "info": {
+    "singularName": "asic",
+    "pluralName": "asics",
+    "displayName": "ASIC"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Active": {
+      "type": "boolean"
+    },
+    "dealers": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::dealer.dealer",
+      "inversedBy": "asics"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "sidebar_menus",
+  "info": {
+    "singularName": "sidebar-menu",
+    "pluralName": "sidebar-menus",
+    "displayName": "SidebarMenu"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    }
+  }
+}
