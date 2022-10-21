@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_moshkv_moshhnost_k_vt_s",
+  "info": {
+    "displayName": "Мощность (кВт)"
+  },
+  "options": {},
+  "attributes": {
+    "moshhnost_k_vt": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::moshhnost-k-vt.moshhnost-k-vt"
+    }
+  }
+}

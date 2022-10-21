@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tip_rabots",
+  "info": {
+    "singularName": "tip-rabot",
+    "pluralName": "tip-rabots",
+    "displayName": "Тип работ"
+  },
+  "options": {
+    "draftAndPublish": true,
+    "privateAttributes": ["createdAt", "updatedAt", "publishedAt"]
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Active": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

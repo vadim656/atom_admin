@@ -4,10 +4,12 @@
   "info": {
     "singularName": "modernization",
     "pluralName": "modernizations",
-    "displayName": "modernization"
+    "displayName": "Модернизация",
+    "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": true,
+    "privateAttributes": ["createdAt", "updatedAt", "publishedAt"]
   },
   "pluginOptions": {},
   "attributes": {
@@ -16,12 +18,6 @@
     },
     "Active": {
       "type": "boolean"
-    },
-    "dealers": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::dealer.dealer",
-      "inversedBy": "modernizations"
     }
   }
 }

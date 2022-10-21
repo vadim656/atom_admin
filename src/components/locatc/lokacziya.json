@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_locatc_lokacziya",
+  "info": {
+    "displayName": "Локация"
+  },
+  "options": {},
+  "attributes": {
+    "lokacziyas": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::lokacziya.lokacziya"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sborka_fermies",
+  "info": {
+    "singularName": "sborka-fermy",
+    "pluralName": "sborka-fermies",
+    "displayName": "Сборка фермы"
+  },
+  "options": {
+    "draftAndPublish": true,
+    "privateAttributes": ["createdAt", "updatedAt", "publishedAt"]
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Active": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

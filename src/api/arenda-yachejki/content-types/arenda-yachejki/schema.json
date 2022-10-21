@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "arenda_yachejkis",
+  "info": {
+    "singularName": "arenda-yachejki",
+    "pluralName": "arenda-yachejkis",
+    "displayName": "Аренда ячейки"
+  },
+  "options": {
+    "draftAndPublish": true,
+    "privateAttributes": ["createdAt", "updatedAt", "publishedAt"]
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Value": {
+      "type": "biginteger"
+    }
+  }
+}

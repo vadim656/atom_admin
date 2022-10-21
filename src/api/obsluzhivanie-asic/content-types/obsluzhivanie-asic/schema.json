@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "obsluzhivanie_asics",
+  "info": {
+    "singularName": "obsluzhivanie-asic",
+    "pluralName": "obsluzhivanie-asics",
+    "displayName": "Обслуживание ASIC"
+  },
+  "options": {
+    "draftAndPublish": true,
+    "privateAttributes": ["createdAt", "updatedAt", "publishedAt"]
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Active": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

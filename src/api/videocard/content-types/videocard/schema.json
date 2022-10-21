@@ -4,10 +4,12 @@
   "info": {
     "singularName": "videocard",
     "pluralName": "videocards",
-    "displayName": "Videocard"
+    "displayName": "Видеокарты",
+    "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": true,
+    "privateAttributes": ["createdAt", "updatedAt", "publishedAt"]
   },
   "pluginOptions": {},
   "attributes": {
@@ -21,14 +23,15 @@
       "type": "boolean"
     },
     "Img": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     }
   }
 }

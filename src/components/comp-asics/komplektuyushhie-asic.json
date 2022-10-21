@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_comp_asics_komplektuyushhie_asics",
+  "info": {
+    "displayName": "Комплектующие ASIC"
+  },
+  "options": {},
+  "attributes": {
+    "komplektuyushhie_asics": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::komplektuyushhie-asic.komplektuyushhie-asic"
+    }
+  }
+}

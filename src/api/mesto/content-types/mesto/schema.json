@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mestos",
+  "info": {
+    "singularName": "mesto",
+    "pluralName": "mestos",
+    "displayName": "Место"
+  },
+  "options": {
+    "draftAndPublish": true,
+    "privateAttributes": ["createdAt", "updatedAt", "publishedAt"]
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Active": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

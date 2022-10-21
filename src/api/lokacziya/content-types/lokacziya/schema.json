@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lokacziyas",
+  "info": {
+    "singularName": "lokacziya",
+    "pluralName": "lokacziyas",
+    "displayName": "Локация"
+  },
+  "options": {
+    "draftAndPublish": true,
+    "privateAttributes": ["createdAt", "updatedAt", "publishedAt"]
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Active": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

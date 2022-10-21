@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_arenda_yacheiki_arendla_yachejki",
+  "info": {
+    "displayName": "Арендла ячейки"
+  },
+  "options": {},
+  "attributes": {
+    "arenda_yachejkis": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::arenda-yachejki.arenda-yachejki"
+    }
+  }
+}

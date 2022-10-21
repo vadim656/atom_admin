@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "podkategoriyas",
+  "info": {
+    "singularName": "podkategoriya",
+    "pluralName": "podkategoriyas",
+    "displayName": "Подкатегория"
+  },
+  "options": {
+    "draftAndPublish": true,
+    "privateAttributes": ["createdAt", "updatedAt", "publishedAt"]
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "IMG": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "UID": {
+      "type": "uid",
+      "targetField": "Name"
+    }
+  }
+}

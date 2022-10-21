@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tip_asics",
+  "info": {
+    "singularName": "tip-asic",
+    "pluralName": "tip-asics",
+    "displayName": "Тип ASIC"
+  },
+  "options": {
+    "draftAndPublish": true,
+    "privateAttributes": ["createdAt", "updatedAt", "publishedAt"]
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Active": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tip_fermies",
+  "info": {
+    "singularName": "tip-fermy",
+    "pluralName": "tip-fermies",
+    "displayName": "Тип фермы"
+  },
+  "options": {
+    "draftAndPublish": true,
+    "privateAttributes": ["createdAt", "updatedAt", "publishedAt"]
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Active": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

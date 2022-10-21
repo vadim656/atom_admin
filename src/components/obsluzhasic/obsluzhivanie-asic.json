@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_obsluzhasic_obsluzhivanie_asics",
+  "info": {
+    "displayName": "Обслуживание ASIC"
+  },
+  "options": {},
+  "attributes": {
+    "obsluzhivanie_asics": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::obsluzhivanie-asic.obsluzhivanie-asic"
+    }
+  }
+}

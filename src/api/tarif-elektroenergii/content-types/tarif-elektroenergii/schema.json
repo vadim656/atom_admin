@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tarif_elektroenergiis",
+  "info": {
+    "singularName": "tarif-elektroenergii",
+    "pluralName": "tarif-elektroenergiis",
+    "displayName": "Тариф электроэнергии"
+  },
+  "options": {
+    "draftAndPublish": true,
+    "privateAttributes": ["createdAt", "updatedAt", "publishedAt"]
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Value": {
+      "type": "decimal"
+    }
+  }
+}

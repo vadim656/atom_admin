@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "moshhnost_k_vts",
+  "info": {
+    "singularName": "moshhnost-k-vt",
+    "pluralName": "moshhnost-k-vts",
+    "displayName": "Мощность (кВт)"
+  },
+  "options": {
+    "draftAndPublish": true,
+    "privateAttributes": ["createdAt", "updatedAt", "publishedAt"]
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Value": {
+      "type": "biginteger"
+    }
+  }
+}

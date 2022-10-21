@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "komplektuyushhie_asics",
+  "info": {
+    "singularName": "komplektuyushhie-asic",
+    "pluralName": "komplektuyushhie-asics",
+    "displayName": "Комплектующие ASIC"
+  },
+  "options": {
+    "draftAndPublish": true,
+    "privateAttributes": ["createdAt", "updatedAt", "publishedAt"]
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Active": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

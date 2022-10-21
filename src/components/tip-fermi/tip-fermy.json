@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_tip_fermi_tip_fermy",
+  "info": {
+    "displayName": "Тип фермы"
+  },
+  "options": {},
+  "attributes": {
+    "tip_fermies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tip-fermy.tip-fermy"
+    }
+  }
+}

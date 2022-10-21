@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_mesto_mesto",
+  "info": {
+    "displayName": "Место"
+  },
+  "options": {},
+  "attributes": {
+    "mestos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::mesto.mesto"
+    }
+  }
+}

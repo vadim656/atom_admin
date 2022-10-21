@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "zapchasti_dlya_remonta_asics",
+  "info": {
+    "singularName": "zapchasti-dlya-remonta-asic",
+    "pluralName": "zapchasti-dlya-remonta-asics",
+    "displayName": "Запчасти для ремонта ASIC"
+  },
+  "options": {
+    "draftAndPublish": true,
+    "privateAttributes": ["createdAt", "updatedAt", "publishedAt"]
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Active": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

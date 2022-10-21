@@ -4,11 +4,16 @@
   "info": {
     "singularName": "dealer",
     "pluralName": "dealers",
-    "displayName": "Dealer",
+    "displayName": "Дилеры",
     "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": true,
+    "privateAttributes": [
+      "createdAt",
+      "updatedAt",
+      "publishedAt"
+    ]
   },
   "pluginOptions": {},
   "attributes": {
@@ -44,41 +49,30 @@
     "CompanyDesc": {
       "type": "text"
     },
-    "asics": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::asic.asic",
-      "mappedBy": "dealers"
+    "Filters": {
+      "type": "dynamiczone",
+      "components": [
+        "complectuyshie.filter1",
+        "arenda-yacheiki.arendla-yachejki",
+        "zap-rem-asics.zapchasti-dlya-remonta-asic",
+        "comp-asics.komplektuyushhie-asic",
+        "locatc.lokacziya",
+        "mesto.mesto",
+        "modernizac.modernizacziya",
+        "moshkv.moshhnost-k-vt",
+        "obsluzhasic.obsluzhivanie-asic",
+        "remont-asic.remont-asic",
+        "sborka-fermi.sborka-fermy",
+        "tarif-electro.tarif-elektroenergii",
+        "tip-asic.tip-asic",
+        "tip-rabot.tip-rabot",
+        "tip-fermi.tip-fermy"
+      ]
     },
-    "farms": {
+    "categories": {
       "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::farm.farm",
-      "mappedBy": "dealers"
-    },
-    "repairs": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::repair.repair",
-      "mappedBy": "dealers"
-    },
-    "accessories": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::accessorie.accessorie",
-      "inversedBy": "dealers"
-    },
-    "modernizations": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::modernization.modernization",
-      "inversedBy": "dealers"
-    },
-    "services": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::service.service",
-      "inversedBy": "dealers"
+      "relation": "oneToMany",
+      "target": "api::podkategoriya.podkategoriya"
     }
   }
 }

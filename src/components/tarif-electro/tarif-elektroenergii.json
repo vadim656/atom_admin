@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_tarif_electro_tarif_elektroenergii",
+  "info": {
+    "displayName": "Тариф электроэнергии"
+  },
+  "options": {},
+  "attributes": {
+    "tarif_elektroenergii": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::tarif-elektroenergii.tarif-elektroenergii"
+    }
+  }
+}

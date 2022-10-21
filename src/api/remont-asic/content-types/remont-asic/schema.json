@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "remont_asics",
+  "info": {
+    "singularName": "remont-asic",
+    "pluralName": "remont-asics",
+    "displayName": "Ремонт ASIC"
+  },
+  "options": {
+    "draftAndPublish": true,
+    "privateAttributes": ["createdAt", "updatedAt", "publishedAt"]
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Active": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

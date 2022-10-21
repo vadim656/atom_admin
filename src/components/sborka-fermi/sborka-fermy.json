@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_sborka_fermi_sborka_fermy",
+  "info": {
+    "displayName": "Сборка фермы"
+  },
+  "options": {},
+  "attributes": {
+    "sborka_fermies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::sborka-fermy.sborka-fermy"
+    }
+  }
+}

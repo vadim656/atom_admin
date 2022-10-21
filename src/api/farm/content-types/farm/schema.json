@@ -7,7 +7,8 @@
     "displayName": "Farm"
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": true,
+    "privateAttributes": ["createdAt", "updatedAt", "publishedAt"]
   },
   "pluginOptions": {},
   "attributes": {
@@ -16,12 +17,6 @@
     },
     "Active": {
       "type": "boolean"
-    },
-    "dealers": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::dealer.dealer",
-      "inversedBy": "farms"
     }
   }
 }

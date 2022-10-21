@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_zap_rem_asics_zapchasti_dlya_remonta_asics",
+  "info": {
+    "displayName": "Запчасти для ремонта ASIC"
+  },
+  "options": {},
+  "attributes": {
+    "zapchasti_dlya_remonta_asics": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::zapchasti-dlya-remonta-asic.zapchasti-dlya-remonta-asic"
+    }
+  }
+}

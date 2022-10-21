@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_modernizac_modernizacziya",
+  "info": {
+    "displayName": "Модернизация"
+  },
+  "options": {},
+  "attributes": {
+    "modernizacziyas": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::modernization.modernization"
+    }
+  }
+}

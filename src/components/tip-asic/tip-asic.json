@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_tip_asic_tip_asics",
+  "info": {
+    "displayName": "Тип ASIC"
+  },
+  "options": {},
+  "attributes": {
+    "tip_asics": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tip-asic.tip-asic"
+    }
+  }
+}
