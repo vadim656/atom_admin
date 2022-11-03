@@ -46,9 +46,6 @@
     "Coordinates": {
       "type": "string"
     },
-    "CompanyDesc": {
-      "type": "text"
-    },
     "Filters": {
       "type": "dynamiczone",
       "components": [
@@ -73,6 +70,26 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::podkategoriya.podkategoriya"
+    },
+    "CompanyDescMap": {
+      "type": "richtext",
+      "default": "Описание для карты"
+    },
+    "CompanyLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "CompanyDesc": {
+      "type": "richtext"
+    },
+    "gorods": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::gorod.gorod"
     }
   }
 }
