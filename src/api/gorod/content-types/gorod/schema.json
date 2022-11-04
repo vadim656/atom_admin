@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gorods",
+  "info": {
+    "singularName": "gorod",
+    "pluralName": "gorods",
+    "displayName": "Город"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Ative": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

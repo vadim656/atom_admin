@@ -5,5 +5,11 @@
     "description": ""
   },
   "options": {},
-  "attributes": {}
+  "attributes": {
+    "komplektuyushhies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::accessorie.accessorie"
+    }
+  }
 }
